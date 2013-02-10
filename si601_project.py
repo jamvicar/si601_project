@@ -10,3 +10,6 @@ for i in range(1,1221):
     response = urllib2.urlopen('http://www.imdb.com/chart/top')
     html = response.read()
     soup=bs(html)
+    
+
+stock
